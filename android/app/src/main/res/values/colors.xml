@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#071419</color>
+    <color name="bg_primary">#071419</color>
+    <color name="bg_secondary">#0D2228</color>
+    <color name="surface_elevated">#123239</color>
+    <color name="surface_high">#183F45</color>
+    <color name="accent_mint">#35E6C0</color>
+    <color name="accent_secondary">#75F0D6</color>
+    <color name="text_primary">#F4FAFA</color>
+    <color name="text_secondary">#A1B5B8</color>
+    <color name="border_teal">#4435E6C0</color>
+    <color name="nav_selected">#35E6C0</color>
+    <color name="nav_unselected">#8CA7AA</color>
+</resources>

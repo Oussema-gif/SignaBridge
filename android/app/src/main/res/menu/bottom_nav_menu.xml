@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/recognizeFragment" android:icon="@drawable/ic_nav_recognize" android:title="Recognize" />
+    <item android:id="@+id/libraryFragment" android:icon="@drawable/ic_nav_library" android:title="Library" />
+    <item android:id="@+id/favoritesFragment" android:icon="@drawable/ic_nav_favorites" android:title="Favorites" />
+    <item android:id="@+id/historyFragment" android:icon="@drawable/ic_nav_history" android:title="History" />
+</menu>

@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "code": "A",
+      "label": "Letter A",
+      "description": "Make a fist with your dominant hand, thumb resting on the side.",
+      "category": "Alphabet"
+    },
+    {
+      "code": "B",
+      "label": "Letter B",
+      "description": "Hold your hand open with fingers straight together and thumb tucked across the palm.",
+      "category": "Alphabet"
+    },
+    {
+      "code": "L",
+      "label": "Letter L",
+      "description": "Extend your index finger and thumb at a 90-degree angle, like an 'L' shape.",
+      "category": "Alphabet"
+    },
+    {
+      "code": "V",
+      "label": "Letter V",
+      "description": "Extend your index and middle fingers in a 'V' shape, with the other fingers closed.",
+      "category": "Alphabet"
+    },
+    {
+      "code": "Y",
+      "label": "Letter Y",
+      "description": "Extend your thumb and pinky finger, keeping the middle, ring, and index fingers closed.",
+      "category": "Alphabet"
+    }
+  ]
+}

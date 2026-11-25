@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SignaBridge</string>
+    <string name="camera_permission_rationale">SignaBridge needs camera access to recognize ASL signs. No images leave your device.</string>
+    <string name="camera_permission_denied">Camera permission is required for sign recognition.</string>
+    <string name="camera_starting">Starting camera…</string>
+    <string name="camera_ready">Camera ready</string>
+    <string name="camera_error">Camera error: %1$s</string>
+</resources>

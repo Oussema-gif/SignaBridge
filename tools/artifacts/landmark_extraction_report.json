@@ -1,0 +1,26 @@
+{
+  "train": {
+    "attempted": 3000,
+    "ok": 3000,
+    "success_rate": 1.0,
+    "elapsed_sec": 70.6,
+    "failure_count": 0,
+    "failure_examples": []
+  },
+  "validation": {
+    "attempted": 1000,
+    "ok": 1000,
+    "success_rate": 1.0,
+    "elapsed_sec": 23.5,
+    "failure_count": 0,
+    "failure_examples": []
+  },
+  "test": {
+    "attempted": 1000,
+    "ok": 1000,
+    "success_rate": 1.0,
+    "elapsed_sec": 24.0,
+    "failure_count": 0,
+    "failure_examples": []
+  }
+}

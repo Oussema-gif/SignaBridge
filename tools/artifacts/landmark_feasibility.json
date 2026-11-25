@@ -1,0 +1,65 @@
+{
+  "overall_success_rate": 1.0,
+  "classes": {
+    "A": {
+      "sampled": 30,
+      "success": 30,
+      "rate": 1.0,
+      "fail_reasons": {},
+      "per_participant": {
+        "P10": {
+          "attempted": 30,
+          "success": 30
+        }
+      }
+    },
+    "B": {
+      "sampled": 30,
+      "success": 30,
+      "rate": 1.0,
+      "fail_reasons": {},
+      "per_participant": {
+        "P10": {
+          "attempted": 30,
+          "success": 30
+        }
+      }
+    },
+    "L": {
+      "sampled": 30,
+      "success": 30,
+      "rate": 1.0,
+      "fail_reasons": {},
+      "per_participant": {
+        "P10": {
+          "attempted": 30,
+          "success": 30
+        }
+      }
+    },
+    "V": {
+      "sampled": 30,
+      "success": 30,
+      "rate": 1.0,
+      "fail_reasons": {},
+      "per_participant": {
+        "P10": {
+          "attempted": 30,
+          "success": 30
+        }
+      }
+    },
+    "Y": {
+      "sampled": 30,
+      "success": 30,
+      "rate": 1.0,
+      "fail_reasons": {},
+      "per_participant": {
+        "P10": {
+          "attempted": 30,
+          "success": 30
+        }
+      }
+    }
+  }
+}

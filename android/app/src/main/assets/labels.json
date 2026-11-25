@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "A",
+    "B",
+    "L",
+    "V",
+    "Y"
+  ],
+  "indices": {
+    "A": 0,
+    "B": 1,
+    "L": 2,
+    "V": 3,
+    "Y": 4
+  },
+  "source": "tools/artifacts/split_manifest.json \u2192 vocabulary (sorted)",
+  "must_match_in": [
+    "tools/train.py",
+    "tools/export_tflite.py",
+    "android/app/src/main/assets/labels.json",
+    "Room sign table ordering"
+  ]
+}

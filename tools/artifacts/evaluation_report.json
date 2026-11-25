@@ -1,0 +1,336 @@
+{
+  "classes": [
+    "A",
+    "B",
+    "L",
+    "V",
+    "Y"
+  ],
+  "test_split": {
+    "n": 1000,
+    "participants": [
+      "P10",
+      "P9"
+    ],
+    "note": "First and only time the test split is opened."
+  },
+  "validation_split": {
+    "n": 1000,
+    "participants": [
+      "P7",
+      "P8"
+    ]
+  },
+  "models": {
+    "best_loss": {
+      "tag": "best_loss",
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "A": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "L": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "V": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "Y": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        }
+      },
+      "confusion_matrix": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ],
+      "test_max_prob_quantiles": {
+        "p01": 0.7718501120805741,
+        "p05": 0.8177168369293213,
+        "p10": 0.8925034046173098,
+        "p50": 0.9532550871372223,
+        "p90": 0.9684298694133758,
+        "p95": 0.9710695564746856,
+        "p99": 0.9731669640541076
+      },
+      "test_max_prob_mean": 0.9389630556106567,
+      "unknown_analysis": {
+        "tag": "best_loss",
+        "unknown_max_prob_mean": 0.696212112903595,
+        "unknown_max_prob_quantiles": {
+          "p50": 0.7362627685070038,
+          "p90": 0.9371136605739594,
+          "p95": 0.9529513597488403,
+          "p99": 0.9698325389623642
+        },
+        "val_p05_threshold": 0.9471780270338058,
+        "acceptance_at_master_prompt_0_80": 0.4612903225806452,
+        "acceptance_at_calibrated_p05": 0.09032258064516129,
+        "per_target_class_breakdown": {
+          "A": {
+            "unknowns_predicted_as_this": 100,
+            "unknown_max_prob_mean": 0.7688925266265869
+          },
+          "B": {
+            "unknowns_predicted_as_this": 183,
+            "unknown_max_prob_mean": 0.6587018966674805
+          },
+          "L": {
+            "unknowns_predicted_as_this": 60,
+            "unknown_max_prob_mean": 0.6001157760620117
+          },
+          "V": {
+            "unknowns_predicted_as_this": 154,
+            "unknown_max_prob_mean": 0.8101565837860107
+          },
+          "Y": {
+            "unknowns_predicted_as_this": 123,
+            "unknown_max_prob_mean": 0.5971444845199585
+          }
+        }
+      },
+      "tradeoff_score": 0.7693548387096774
+    },
+    "final_epoch": {
+      "tag": "final_epoch",
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "A": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "L": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "V": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        },
+        "Y": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 200
+        }
+      },
+      "confusion_matrix": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ],
+      "test_max_prob_quantiles": {
+        "p01": 0.7620066279172897,
+        "p05": 0.809457141160965,
+        "p10": 0.9103830754756931,
+        "p50": 0.95298832654953,
+        "p90": 0.9648595869541169,
+        "p95": 0.9714658975601196,
+        "p99": 0.9733306652307511
+      },
+      "test_max_prob_mean": 0.9394411444664001,
+      "unknown_analysis": {
+        "tag": "final_epoch",
+        "unknown_max_prob_mean": 0.6840288639068604,
+        "unknown_max_prob_quantiles": {
+          "p50": 0.7179093658924103,
+          "p90": 0.9297368884086609,
+          "p95": 0.945284417271614,
+          "p99": 0.9643883180618286
+        },
+        "val_p05_threshold": 0.940947076678276,
+        "acceptance_at_master_prompt_0_80": 0.45645161290322583,
+        "acceptance_at_calibrated_p05": 0.07419354838709677,
+        "per_target_class_breakdown": {
+          "A": {
+            "unknowns_predicted_as_this": 88,
+            "unknown_max_prob_mean": 0.8339931964874268
+          },
+          "B": {
+            "unknowns_predicted_as_this": 204,
+            "unknown_max_prob_mean": 0.6204257011413574
+          },
+          "L": {
+            "unknowns_predicted_as_this": 69,
+            "unknown_max_prob_mean": 0.604387640953064
+          },
+          "V": {
+            "unknowns_predicted_as_this": 127,
+            "unknown_max_prob_mean": 0.8310339450836182
+          },
+          "Y": {
+            "unknowns_predicted_as_this": 132,
+            "unknown_max_prob_mean": 0.5825425386428833
+          }
+        }
+      },
+      "tradeoff_score": 0.771774193548387
+    }
+  },
+  "shipping_decision": {
+    "checkpoint": "model_final.keras",
+    "reason": "model_final combined score = 0.7718; model_best combined score = 0.7694. model_final test accuracy = 1.0000; model_best = 1.0000. model_final unknown acceptance @0.80 = 0.4565 vs model_best = 0.4613.",
+    "best_score": 0.7693548387096774,
+    "final_score": 0.771774193548387
+  },
+  "threshold_decision": {
+    "recommended_threshold": 0.9488492462311557,
+    "minimum_target_retention": 0.93,
+    "measured_target_retention": 0.931,
+    "measured_unknown_rejection": 0.9112903225806451,
+    "measured_unknown_acceptance": 0.08870967741935487,
+    "master_prompt_default_0_80": 0.8,
+    "master_prompt_target_retention": 1.0,
+    "master_prompt_unknown_rejection": 0.5387096774193548,
+    "master_prompt_unknown_acceptance": 0.4612903225806452,
+    "reason": "Chosen as the highest threshold that keeps validation target retention >= 0.93 (per-frame target error <= 0.07, intended to be absorbed partly by the smoother's 7-of-10 agreement window). At this threshold: target retention = 0.9310, proxy-unknown rejection = 0.9113 (acceptance = 0.0887). At the Master Prompt default 0.80: target retention = 1.0000, proxy-unknown rejection = 0.5387 (acceptance = 0.4613).",
+    "note": "The recommended threshold is selected from the measured validation/proxy-unknown curve. If it differs from 0.80, Stage 3 should document the measured recommendation and the original Master Prompt default in PredictionSmoother.java and the ML README. Do not silently hard-code a threshold without this report."
+  },
+  "unknown_proxy": {
+    "n": 620,
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "W",
+      "X",
+      "Z"
+    ],
+    "participants": [
+      "P10",
+      "P9"
+    ],
+    "documented_limitation": "Proxy-unknown set is handshape-only (31 non-V1 ASL-HG classes), signer-independent (P9/P10). It is NOT a universal unknown-class sample. Unknown rejection rates measured here are not a guarantee of real-world performance."
+  },
+  "calibration_limitation": "Label smoothing 0.05 constrains confidence and can affect probability calibration. The reliability diagram should be interpreted alongside the classification metrics and unknown-proxy rejection results.",
+  "feature_space_distance_rejection": {
+    "status": "deferred",
+    "reason": "Softmax thresholding plus smoother agreement window is evaluated first. If proxy-unknown acceptance at the recommended threshold is not acceptable, feature-space distance-based rejection is a candidate for a follow-up module."
+  },
+  "test_set_status": "consumed by this module; not reused for model selection"
+}
