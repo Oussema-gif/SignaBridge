@@ -479,8 +479,6 @@ Université de Monastir — Tunisia
 
 <div align="center">
 
-Made with ❤️, Java, Python, and Artificial Intelligence.
 
-**If you find this project interesting, consider giving it a ⭐**
 
 </div>
